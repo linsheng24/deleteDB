@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <form action="deleteDB.php" method="post">
+    輸入欲刪除之主表:
+    <input type="text" name="main" placeholder="mtb"><br>
+
+    輸入欲刪除之子表(以逗點隔開):
+    <input type="text" name="son" placeholder="stb_1,stb_2,..."><br>
+
+    輸入主表刪除日期:
+    <input type="text" name="date" placeholder="1993.03.31"><br>
+
+    輸入主表關聯鍵值名稱:
+    <input type="text" name="m_id" placeholder="main_id"><br>
+
+    輸入子表關聯鍵值名稱:
+    <input type="text" name="s_id" placeholder="son_id"><br>
+    
+    <input type="submit" value="刪除資料">
+
+    </form>
+</div>
+    
+
+
+
+</body>
+</html>
+
+
